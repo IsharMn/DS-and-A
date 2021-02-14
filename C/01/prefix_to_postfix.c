@@ -35,6 +35,7 @@ int main(void)
     }
 
     printf("Equivalent postfix expression: %s\n", stack_pop(stack));
+    stack_destroy(stack);
     return 0;
 } /* end function main */
 
